@@ -1,0 +1,12 @@
+{
+    "manifest_version": 2,
+    "name": "Pocket Launcher",
+    "description": "Make your life easier by launching any websites with one click. Pocket launcher helps you to launch any website with just one click, which makes your life easier.",
+    "version": "1.0.0",
+    "icons": {"128": "Logo.png"},
+    "browser_action": {
+        "default_icon": "Logo.png",
+        "default_popup": "index.html"
+    },
+    "permissions": ["activeTab"]
+}
